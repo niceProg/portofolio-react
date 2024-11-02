@@ -1,12 +1,12 @@
 import React from "react";
-import Nav from "./components/Nav";
+import MenuHandler from "./components/MenuHandler";
 // import Image from "next/image";
 
 const Home = () => {
      return (
-          <div className="overflow-x-hidden">
+          <div className="overflow-x-hidden text-[#F6F5F6]">
                <div>
-                    <Nav />
+                    <MenuHandler />
                </div>
           </div>
      );
